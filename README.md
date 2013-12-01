@@ -25,3 +25,9 @@ http://www.kth.se/csc/
 <b>Other source code: </b></br><br>
 Albert Haque (The A-team):</br><br>
 https://github.com/ahaque/Genetic-TSP/blob/master/src/GeneticManager.java</br>
+
+<br></br><br></br>
+
+<br>Computer Science Department</br>
+<br>University of Texas at Austin</br>
+<br>College of Natural Sciences</br>
