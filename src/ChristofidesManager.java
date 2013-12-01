@@ -5,18 +5,6 @@ import java.io.IOException;
 public class ChristofidesManager {
         
         public static ChristofidesManager instance = new ChristofidesManager();
-        // public static final String INPUT_FILE = "input1.txt";
-        // public int[][] matrix;
-        
-        // public static void main(String[] args) {
-        //         GeneticManager gm = new GeneticManager();
-        //         try {
-        //                 gm.readDistanceMatrix();
-        //         } catch (IOException e) {
-        //                 System.err.println(e);
-        //         }
-        //         gm.printMatrix();
-        // }
                 
         private ChristofidesManager() {       
         }
