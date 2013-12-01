@@ -3,6 +3,16 @@ Christofides Implementation
 
 TSP Hueristics - Christofides Algorithm Implementation 
 
+How to use
+==========
+Compile ChristofidesManager.java
+<br>  javac ChristofidesManager.java </br>
+<br>Compile ChristofidesMain.java </br>
+<br>  javac ChristofidesMain.java </br>
+<br>Run ChristofidesMain </br>
+<br>  java ChristofidesMain </br>
+<br>Specify input file (path from origin) </br>
+
 Citations
 =========
 
