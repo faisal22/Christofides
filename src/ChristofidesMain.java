@@ -17,6 +17,8 @@ class ChristofidesMain{
 
                 String command = "";
                 Scanner input = new Scanner(System.in);
+                long start = 0;
+                long end = 0;
 
                 // Christofides object intialization (in verbose mode)
                 Christofides ch = null;
@@ -38,11 +40,22 @@ class ChristofidesMain{
                                 if(command.equals("q"))
                                         break;
 
+                                // Start timer
+                                start = System.nanoTime();
+
                                 // solve on specified input file 
                                 int [] shortestPath = ch.solve(ChristofidesManager.getManager().readDistanceMatrix(command));
 
+                                // Stop timer
+                                end = System.nanoTime();
+
                                 // print shortest path
-                                System.out.println("Shortest path: "+Arrays.toString(shortestPath)+"\n\n");
+                                System.out.println("Shortest path: "+Arrays.toString(shortestPath));
+
+                                // print time
+                                System.out.println("Time (in nano seconds): "+(end - start));
+
+                                System.out.println("\n");
                         }
                         catch(Exception e){
                                 e.printStackTrace();
