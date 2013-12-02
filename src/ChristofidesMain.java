@@ -49,13 +49,14 @@ class ChristofidesMain{
                                 // Stop timer
                                 end = System.nanoTime();
 
+                                // print time
+                                System.out.println("Time (in nano seconds): "+(end - start) +"\n");
+                                
                                 // print shortest path
                                 System.out.println("Shortest path: "+Arrays.toString(shortestPath));
 
-                                // print time
-                                System.out.println("Time (in nano seconds): "+(end - start));
-
                                 System.out.println("\n");
+                                start = 0; end = 0; command = "";
                         }
                         catch(Exception e){
                                 e.printStackTrace();
